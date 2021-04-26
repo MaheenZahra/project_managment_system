@@ -1,0 +1,74 @@
+body {
+  background: #15b9b1;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px
+}
+form {
+  background: #fff;
+  padding: 4em 4em 2em;
+  max-width: 400px;
+  margin: 100px auto 0;
+  box-shadow: 0 0 2.5em #fff;
+  border-radius: 60px;}
+  
+  p {
+    margin:  1em 0em 0em 0em;
+    position: relative;
+    font-size: 13px;}
+    span{
+      color: #15b9b1;
+    }
+  input {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    outline: none;
+    margin:0;
+  }
+  .inputField,
+  .inputField,
+  .inputField {
+    background: #fff;
+    border: 1px solid #c8c8c8;
+    font-size: 1.6em;
+    padding: .8em .5em;
+    border-radius: 5px;
+  }
+  
+  .inputField:focus,
+  .inputField:focus,
+  .inputField:focus {
+    background: #fff;
+    border: 2px solid #b9b7b9;
+  }
+  .SignUpButton{
+    background:#5adbec;
+    border-radius: 9px;
+    width:100%;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: block;
+    font-size: 2em;
+    line-height: 1.6em;
+    margin: 1em 0 0;
+    outline: none;
+    padding: .8em 0;
+    text-shadow: 0 1px ;
+  }
+ .SignUpButton:hover {
+    background: #15b9b1;
+    text-shadow:0 1px 3px darken(yellow, 30%);
+    transform: scale(1.1);
+  }
+  .nav{
+    text-decoration: none;
+    color: #FFFFFF;
+  }
+  
+.FormHeading{
+  color:#959395;
+  font-family: Arial, Helvetica, sans-serif;
+   padding-bottom: 12px;
+   padding-right: 12px;
+}

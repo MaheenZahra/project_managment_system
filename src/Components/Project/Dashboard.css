@@ -1,0 +1,112 @@
+*{
+  margin: 0px;
+  padding:0px;
+  box-sizing: border-box;
+  text-align:center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.welcome{
+  background-color: #FFFFFF;
+  margin: 50px 50px 50px 300px;
+  height: 70px;
+  width:62%;
+  border-radius: 14px;
+}
+.welcomeText{
+  padding-top:20px;
+  color:#959395;
+}
+.projectSection{
+  display:grid;
+  
+}
+.addProj{
+  max-width: 14%;
+  height: 500px;
+  background-color: #ffffff;
+  margin: 1em 2em 1em 10em;
+  border-radius: 9px;
+}
+.addProj p{
+  color:#756d75;
+}
+.addButton{
+  margin:5em 2em 2em 2em;
+  background-color:lightgreen;
+  color:#756d75;
+}
+.projData{
+  outline:none;
+  height: 100px;
+  width:100%;
+  border: 1px solid #c8c8c8;
+  font-size: 1.6em;
+  padding: .8em ;
+}
+
+.addItems{
+  background: #defffd;
+  padding: 4em 4em 2em;
+  max-width: 57%;
+  margin:-46em 2em 10em 40em;
+  border-radius: 60px;
+}
+.projField{
+  margin-bottom:32px
+}
+img{
+  border-radius: 50%;
+  height: 2rem;
+  width: 2rem;
+  float: left;
+  margin-top: 18px;
+  margin-left: 18px;
+}
+.projDisplay{
+  display: grid;
+  padding: 4em 4em 2em;
+  max-width: 57%;
+  margin:-46em 2em 10em 40em;
+}
+.proj{
+  display:flex;
+  background-color: #ffffff;
+  max-width: 100%;
+  height: 70px;
+  border-radius:12px;
+  margin-bottom: 14px;
+  cursor: pointer;
+}
+.proj h1{
+  color:#756d75;
+  margin:1.5em 2em 2em 2em;
+}
+.proj:hover{
+  transform: scale(1.01);
+}
+.date{
+  padding-left: 10em;
+}
+.back{
+  text-decoration: none;
+  color: #959395;
+  font-size: 2em;
+  font-weight: bold;
+}
+.backButton,.l{
+  text-align: left;
+  float:left;
+  border-radius: 50%;
+  margin-left: 110px;
+  padding: 1em 1.5em 1em 1.5em;
+}
+.backButton:hover{
+  background-color: #fdf6f6;
+}
+.projectName h1{
+  color :white;
+  margin-top: 5px;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
